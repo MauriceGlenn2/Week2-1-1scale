@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Playfair+Display&display=swap');
+
+*{
+    font-family: "lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row{
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 32px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 0px 96px, 0px, 96px;
+}
+
+p {
+    font-size: 18px;
+    text-align: left;
+    color: #243e63;
+}
+
+/* Nav */
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav__links--container{
+    display: flex;
+    list-style: none;
+}
+
+.nav__link{
+    margin: 0px 24px;
+    padding: 0px, 0px, 4px;
+    text-decoration: none;
+}
+
+.nav__login{
+    margin: 0px, 24px, 0px, 48px;
+    padding: 0px, 0px, 4px;
+}
+
+.nav__logo{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 24px;
+    
+}
+
+.t__img{
+    width: 40px;
+    margin-right: 12px;
+}
+
+.nav__home{
+    font-size: 24px;
+    
+}
+
+
+/* Header */
+.span__header{
+    color: #6415ff
+}
