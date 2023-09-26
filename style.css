@@ -508,8 +508,59 @@ button:hover {
 
 .value__wrapper{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.values__types{
+    display: flex;
+    align-items: center;
+}
+
+.value__title{
+    font-size: 20px;
+    margin-left: 12px;
+    font-weight: 700;
+    color: #243e63;
+}
+
+.value__details--para{
+    color: #718096;
+    font-size: 16px;
+    line-height: 1.625;
+    margin-top: 16px;
+}
+
+.value__details--para1{
+    margin-right: 32px;
+}
+
+.dollar__img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    fill: rgb(39 103 73);
+    background-color: rgb(154 230 180);
+    padding: 8px;
     
 }
 
+.brief__img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    fill: rgb(155 44 44);
+    background-color: rgb(254 178 178);
+    padding: 8px;
+}
+
+.img__border{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+/* Pricing */
 
 
