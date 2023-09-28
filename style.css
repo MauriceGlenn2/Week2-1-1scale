@@ -22,8 +22,16 @@ html {
     scroll-behavior: smooth;
 }
 
-a{
-    text-decoration: none;
+li{
+    text-align: left;
+        margin-top: 12px;
+        transition: 300ms;
+        text-decoration: none;
+        list-style: none;
+}
+
+ul{
+    list-style-type: none;
 }
 
 p {
@@ -820,9 +828,15 @@ button:hover {
 
 /* Footer */
 
+footer{
+    width: 100%;
+    background-color: rgb(100 21 255);
+}
+
 .links{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .link{
@@ -830,6 +844,8 @@ button:hover {
     width: calc(100%/5);
     display: flex;
     margin-top: 3rem;
+    align-items: center;
+    
 }
 
 .main__link{
@@ -837,6 +853,7 @@ button:hover {
     text-transform: uppercase;
     font-size: 16px;
     text-align: left !important;
+    color: white;
     
 }
 
@@ -848,18 +865,18 @@ button:hover {
     
 }
 
-.link__list{
+.link__list {
     text-align: left;
     margin-top: 12px;
     transition: 300ms;
-    text-decoration: none !important;
+    text-decoration: none;
     list-style: none;
+    color: rgb(247 250 252);
 }
 
 .link__list:hover {
-    border-bottom: 2px solid rgb(116, 44, 255);
-    /* Change the border color to match your design */
-    /* Add a transition for smooth animation */
+    border-bottom: 1px solid rgb(247 250 252);
+    transition: 300ms;
 }
 
 
@@ -868,7 +885,7 @@ button:hover {
     margin-bottom: 4rem;
     width: 100%;
     border-bottom-width: 2px;
-    border: 2px solid rgb(116 44 255);
+    border: 1px solid rgb(116 44 255);
 }
 
 .footer__bottom--wrapper{
@@ -879,7 +896,9 @@ button:hover {
 }
 
 .t__footer{
-    width: 40px;
+    width: 2rem;
+    color: rgb(247 250 252);
+    margin-right: 8px;
 }
 
 .footer__logo{
@@ -888,11 +907,24 @@ button:hover {
     font-weight: 900;
     font-size: 24px;
     text-decoration: none;
+    color: rgb(247 250 252);
 }
 
 .copyright__para{
     text-align: center;
     font-size: 1rem;
     font-weight: 500;
-    
+    color:rgb(247 250 252)
+}
+
+.fa-brands{
+    border: none;
+    border-radius: 9999px;
+    background-color: #fff;
+    padding: 8px;
+    color: black;
+}
+
+.left__icons{
+    margin-right: 16px;
 }
