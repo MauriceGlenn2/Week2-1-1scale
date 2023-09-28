@@ -22,7 +22,9 @@ html {
     scroll-behavior: smooth;
 }
 
-
+a{
+    text-decoration: none;
+}
 
 p {
     font-size: 18px;
@@ -851,6 +853,7 @@ button:hover {
     margin-top: 12px;
     transition: 300ms;
     text-decoration: none !important;
+    list-style: none;
 }
 
 .link__list:hover {
