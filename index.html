@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,6 +13,7 @@
       rel="stylesheet"
     />
 <script src="https://kit.fontawesome.com/d291aecf1c.js" crossorigin="anonymous"></script>
+<script src="slide.js"></script>
   </head>
   <body>
     <div class="row">
@@ -29,6 +31,34 @@
           <li><a class="nav__link nav__login">Login</a></li>
           <li><a href="#" class="sign__up--btn">Sign up</a></li>
         </ul>
+        <button class="btn__menu" onclick="openMenu()">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="menu__backdrop" style="visibility: hidden;">
+          <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <i class="fas fa-times blackX"></i>
+          </button>
+          <ul class="menu__links">
+            <li class="menu__list">
+              <a class="menu__link" onclick="closeMenu()">About</a>
+            </li>
+            <li class="menu__list">
+              <a class="menu__link" onclick="closeMenu()">Blog</a>
+            </li>
+            <li class="menu__list">
+              <a class="menu__link no-cursor" onclick="closeMenu()">Pricing</a>
+            </li>
+            <li class="menu__list">
+              <a class="menu__link no-cursor" onclick="closeMenu()">Contact Us</a>
+            </li>
+            <li class="menu__list">
+              <a class="menu__link no-cursor" onclick="closeMenu()">Login</a>
+            </li>
+            <li class="menu__list">
+              <a class="menu__link menu__link2 no-cursor sign__up--btn2" onclick="closeMenu()">Sign Up</a>
+            </li>
+          </ul>
+        </div>
       </div>
       
       <header class="#about">
