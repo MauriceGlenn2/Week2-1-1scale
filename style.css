@@ -171,6 +171,7 @@ p {
     color: black;
     font-size: 18px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .btn__menu--close {
@@ -299,7 +300,7 @@ button{
     transition: 300ms;
     font-size: 100%;
     outline: none;
-    cursor: not-allowed;
+    cursor: pointer;
     position: absolute;
     right: 0;
     margin-top: 8px;
@@ -1020,6 +1021,10 @@ footer{
 /* Media Sizing */
 
 @media (max-width:992px) {
+
+    button:hover {
+            background-color: #FFF
+        }
     
     /* Nav */
     .nav__link{
@@ -1175,6 +1180,10 @@ footer{
 
 @media (max-width:768px) {
     /* Header */
+
+    button:hover {
+            background-color: #FFF
+        }
         .about__left {
             width: 68%;
             margin-right: 96px;
@@ -1244,6 +1253,14 @@ footer{
         background-color: #FFF
         }
 
+    .get__started--btn {
+         position: static;
+         width: inherit;
+         margin-right: 0px;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         }
+
     .about__left{
         width: 100%;
     }
@@ -1251,10 +1268,12 @@ footer{
     .input__wrapper{
        display: flex;
        flex-direction: column;
+       width: inherit;
     }
 
-    .input__container{
-        flex-direction: column;
+    input{
+        padding-right: 0px;
+        width: 100%;
     }
 
     .about__right{
