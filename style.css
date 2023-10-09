@@ -1524,7 +1524,8 @@ footer{
 
 }
 
-@media (max-width:360px) {
+
+@media (max-width:576px) {
     button:hover {
         background-color: #FFF
         }
